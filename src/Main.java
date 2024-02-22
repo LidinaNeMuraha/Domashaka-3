@@ -55,6 +55,48 @@ public class Main {
 
         // zadanie 5
 
+        int rebenok = 4;
+
+        if (rebenok >= 5 && rebenok <=14) {
+            System.out.println("Если возраст ребенка равен " + rebenok + " то ему можно кататься на атракционе в сопровождении");
+        }
+        else if (rebenok > 14) {
+            System.out.println("Если возраст ребенка равен " + rebenok + " то ему можно кататься на атракционе без сопровождения взрослого");
+        }
+        else if (rebenok < 5) {
+            System.out.println("Если возраст ребенка равен " + rebenok + " то ему нельзя кататься на атракционе");
+        }
+
+        // zadanie 6
+
+        int passasgiri = 101;
+
+        if (passasgiri > 102) {
+            System.out.println("Вагон забит полностью");
+        }
+        else if (passasgiri > 60 && passasgiri < 102) {
+            System.out.println("В вагоне есть только стоячие места");
+        }
+        else if (passasgiri >= 1 && passasgiri <=60) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+
+        // zadanie 7
+        int one = 1;
+        int two = 2;
+        int three = 3;
+
+        if (one > two && one > three) {
+            System.out.println("число" + one + "самое большое");
+        }
+        else if (two > one && two > three) {
+            System.out.println("число" + two + "самое большое");
+        }
+        else if (three > one && three > two) {
+            System.out.println("число " + three + " самое большое");
+        }
+
+
 
 
 
